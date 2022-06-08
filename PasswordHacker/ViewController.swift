@@ -46,7 +46,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func reset (){
+        password = 1234
         
+        resultLabel1.text = "0"
+        resultLabel2.text = "0"
+        resultLabel3.text = "0"
+        resultLabel4.text = "0"
+        
+        countLabel.text = "スタートボタンを押して解析開始"
     }
 
 }
